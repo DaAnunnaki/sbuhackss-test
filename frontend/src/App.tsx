@@ -2,7 +2,8 @@ import { useEffect, useMemo, useState } from "react";
 import { AppShell, Container, Grid, Card, Tabs } from "@mantine/core";
 import dayjs from "dayjs";
 import { HeaderBar, Sidebar, WelcomeCard, WeekCalendar, MonthCalendarModal, RemindersTab, CommunityTab, ChatAssistant } from "./components";
-import { Lang, CalendarEvent, Task } from "./lib/types";
+import type { Lang } from "./lib/types";
+import type { CalendarEvent, Task } from "./lib/types";
 import { tDict } from "./lib/i18n";
 import { IconChecklist, IconWorld } from "@tabler/icons-react";
 

@@ -1,5 +1,6 @@
-import dayjs, { Dayjs } from "dayjs";
-import { CalendarEvent, HOURS_END, HOURS_START } from "./types";
+import { Dayjs } from "dayjs";
+import type { CalendarEvent } from "./types";
+import { HOURS_END, HOURS_START } from "./types";
 
 export function getMonthGrid(ref: Dayjs) {
   const first = ref.startOf("month");

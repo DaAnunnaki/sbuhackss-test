@@ -1,6 +1,6 @@
 import { Card, Group, ThemeIcon, Title, Button } from "@mantine/core";
 import { IconUser } from "@tabler/icons-react";
-import { Lang } from "../lib/types";
+import type { Lang } from "../lib/types";
 import { tDict, languages } from "../lib/i18n";
 
 export default function WelcomeCard({ lang, setLang }: { lang: Lang; setLang: (l: Lang) => void }) {

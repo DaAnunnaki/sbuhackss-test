@@ -1,7 +1,7 @@
 import { Modal, Group, Text, Grid, Card, Stack, Divider } from "@mantine/core";
 import { IconCalendar } from "@tabler/icons-react";
 import dayjs, { Dayjs } from "dayjs";
-import { CalendarEvent } from "../lib/types";
+import type { CalendarEvent } from "../lib/types";
 import { getMonthGrid, groupByDay } from "../lib/calendar";
 
 export default function MonthCalendarModal({

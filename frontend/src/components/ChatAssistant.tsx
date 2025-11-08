@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Card, Group, ThemeIcon, Title, Divider, ScrollArea, Stack, Text, TextInput, Button } from "@mantine/core";
 import { IconRobot, IconSend } from "@tabler/icons-react";
-import { Lang } from "../lib/types";
+import type { Lang } from "../lib/types";
 import { tDict } from "../lib/i18n";
 
 type Msg = { from: "ai" | "user"; text: string };
