@@ -1,0 +1,55 @@
+import { Lang } from "./types";
+
+export const tDict = {
+  en: {
+    caregiverDashboard: "Caregiver Dashboard",
+    welcome: "Welcome, seawolf",
+    doctorInfo: "Doctor Information",
+    patientInfo: "My Profile",
+    communityEvents: "Community Events",
+    upcomingAppointments: "This Week",
+    addToCalendar: "Full screen",
+    aiAssistant: "AI Assistant",
+    typeHere: "Ask me anything...",
+    translatePrescription: "Translate prescription",
+    explainDiagnosis: "Explain diagnosis",
+    askDoctor: "Message doctor",
+    settings: "Settings",
+    reminders: "Reminders",
+  },
+  zh: {
+    caregiverDashboard: "照护者仪表板",
+    welcome: "欢迎，海狼",
+    doctorInfo: "医生信息",
+    patientInfo: "我的资料",
+    communityEvents: "社区活动",
+    upcomingAppointments: "本周日历",
+    addToCalendar: "全屏查看",
+    aiAssistant: "AI 助手",
+    typeHere: "问我任何问题…",
+    translatePrescription: "翻译处方",
+    explainDiagnosis: "解释诊断",
+    askDoctor: "给医生发消息",
+    settings: "设置",
+    reminders: "提醒",
+  },
+  es: {
+    caregiverDashboard: "Panel del Cuidador",
+    welcome: "Bienvenido/a, seawolf",
+    doctorInfo: "Información del Médico",
+    patientInfo: "Mi Perfil",
+    communityEvents: "Eventos Comunitarios",
+    upcomingAppointments: "Semana",
+    addToCalendar: "Pantalla completa",
+    aiAssistant: "Asistente IA",
+    typeHere: "Pregúntame lo que sea…",
+    translatePrescription: "Traducir receta",
+    explainDiagnosis: "Explicar diagnóstico",
+    askDoctor: "Mensaje al médico",
+    settings: "Ajustes",
+    reminders: "Recordatorios",
+  },
+} as const;
+
+export type Dict = typeof tDict;
+export const languages: Lang[] = ["en", "zh", "es"];
